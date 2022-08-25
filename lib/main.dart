@@ -54,7 +54,10 @@ class _StoryPageState extends State<StoryPage> {
               child: Center(
                 child: Text(
                   storyTeller.getStoryText(),
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                  style: TextStyle(
+                    color: Colors.white70,
+                    fontSize: 26,
+                  ),
                 ),
               ),
             ),
